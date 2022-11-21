@@ -65,8 +65,8 @@ void GiaiPhuongTrinh_Dang2(const int &type) {
 		cout << "X = ";
 		if (res_virt == 0) cout << res_real;
 		else if (res_real == 0) cout << res_virt << "i";
-		else if (res_virt > 0) cout << res_virt << "+" << res_real << "i";
-		else cout << res_virt << res_real << "i";
+		else if (res_virt > 0) cout << res_real << "+" << res_virt << "i";
+		else cout << res_real << res_virt << "i";
 	}
 }
 
